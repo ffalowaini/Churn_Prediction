@@ -6,7 +6,7 @@ Customer success does not only stop at acquiring new customers, it is extended t
 
 ## Deployed Project
   https://ml-sic.000webhostapp.com
-![plot](UI.png.png)
+![plot](UI.png)
 
 
 ## Goals
