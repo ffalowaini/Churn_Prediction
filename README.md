@@ -4,9 +4,9 @@
 
 Customer success does not only stop at acquiring new customers, it is extended to a longer lifecycle as this obviously depend on direct and indirect reasons. Churn customer metrics can significantly indicate the customer success Lifecycle. Figure 1 illustrate the story behind customer engagement along the time. It can be seen that after the acquisition stage, the customer is more likely to be get more engaged to the company services/product. After the customer gets satisfied with the company, the customer tends to be more loyal to the company as the time goes. However, the risk of losing the customer increases as the customer keeps utilizing the service/product. This would indicate to make more customized services/product to the customer to keep him satisfied, otherwise the customer is more likely to be churn. 
 
-## Deployed Demo
+## Deployed Project
   https://ml-sic.000webhostapp.com
-![plot](UI.png)
+
 
 
 ## Goals
@@ -26,10 +26,6 @@ The code is mainy divided to two part, Front-end and Back-end.
 
 
 
-  
-
-
-
 ## How to Install the Project
 
 ### Front-end
@@ -40,11 +36,11 @@ The code is mainy divided to two part, Front-end and Back-end.
 
 2- 
   After installing Flutter you can simplely clone the project using following command
-  > git clone https://github.com/IBM/watson-banking-chatbot 
+  git clone https://github.com/ffalowaini/Churn_Prediction.git 
 
 3- 
   Open the project in your favorite IDE tool and run the main.dart file our using following command
-  > flutter run
+  flutter run
 
 ### Back-end
 1- 
@@ -54,41 +50,16 @@ The code is mainy divided to two part, Front-end and Back-end.
 
 2- 
   After installing Pyhton you need to need to install Flask package using following command
-  > pip install flask
+  pip install flask
 
 3- 
   After installing Pyhton you can simplely clone the project using following command
-  git clone https://github.com/IBM/watson-banking-chatbot 
+  git clone https://github.com/ffalowaini/Churn_Prediction.git 
 
-4- 
+3- 
   Open the project in your favorite IDE tool and run the app.py file our using following command
-  > flask run
+  flask run
 
-##### to use the back-end for other project
-
-send the data as array in json formate contain the following in the same order (where true is 1, false is 0)
-  - tenure month
-  - monthly charge
-  - is_male
-  - is_senior_citizen
-  - is_partner
-  - has_dependent
-  - has_Phone_Service
-  - has_Multiple_Lines
-  - has_Internet_Service_Fiber? optic
-  - has_Online_Security
-  - has_Online_Backup
-  - has_Device_Protection
-  - has_Tech_Support
-  - has_Streaming_TV
-  - has_Streaming_Movies
-  - contract_year
-  - contract_two_year
-  - payment_credit
-  - payment_Electronic
-  - payment_Mail
-
-  the response formate as follow in json format ['will churn or not', 'probability of not churn', 'probability of churn']
 
 ## How to deploy the Project to server
 
