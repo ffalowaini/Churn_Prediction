@@ -65,30 +65,30 @@ The code is mainy divided to two part, Front-end and Back-end.
   > flask run
 
 ##### to use the back-end for other project
-  1- 
-    send the data as array in json formate contain the following in the same order (where true is 1, false is 0)
-    - tenure month
-    - monthly charge
-    - is_male
-    - is_senior_citizen
-    - is_partner
-    - has_dependent
-    - has_Phone_Service
-    - has_Multiple_Lines
-    - has_Internet_Service_Fiber? optic
-    - has_Online_Security
-    - has_Online_Backup
-    - has_Device_Protection
-    - has_Tech_Support
-    - has_Streaming_TV
-    - has_Streaming_Movies
-    - contract_year
-    - contract_two_year
-    - payment_credit
-    - payment_Electronic
-    - payment_Mail
 
-    the response formate as follow in json format ['will churn or not', 'probability of not churn', 'probability of churn']
+send the data as array in json formate contain the following in the same order (where true is 1, false is 0)
+  - tenure month
+  - monthly charge
+  - is_male
+  - is_senior_citizen
+  - is_partner
+  - has_dependent
+  - has_Phone_Service
+  - has_Multiple_Lines
+  - has_Internet_Service_Fiber? optic
+  - has_Online_Security
+  - has_Online_Backup
+  - has_Device_Protection
+  - has_Tech_Support
+  - has_Streaming_TV
+  - has_Streaming_Movies
+  - contract_year
+  - contract_two_year
+  - payment_credit
+  - payment_Electronic
+  - payment_Mail
+
+  the response formate as follow in json format ['will churn or not', 'probability of not churn', 'probability of churn']
 
 ## How to deploy the Project to server
 
