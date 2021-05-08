@@ -36,7 +36,7 @@ The code is mainy divided to two part, Front-end and Back-end.
 
 2- 
   After installing Flutter you can simplely clone the project using following command
-  git clone https://github.com/IBM/watson-banking-chatbot 
+  git clone https://github.com/ffalowaini/Churn_Prediction.git 
 
 3- 
   Open the project in your favorite IDE tool and run the main.dart file our using following command
@@ -54,7 +54,7 @@ The code is mainy divided to two part, Front-end and Back-end.
 
 3- 
   After installing Pyhton you can simplely clone the project using following command
-  git clone https://github.com/IBM/watson-banking-chatbot 
+  git clone https://github.com/ffalowaini/Churn_Prediction.git 
 
 3- 
   Open the project in your favorite IDE tool and run the app.py file our using following command

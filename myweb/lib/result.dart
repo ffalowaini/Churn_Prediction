@@ -4,12 +4,32 @@ import 'package:myweb/main.dart';
 import 'package:myweb/title.dart';
 import 'package:myweb/triangleLeft.dart';
 
-
 // ############################################ //
 //             The Result Page                 //
 // ############################################ //
 
 class Page2 extends StatelessWidget {
+  Widget accurecyResult() {
+    return Column(
+      children: [
+        SizedBox(
+          height: 20,
+        ),
+        Text(
+          'The accuracy of the result is 88.9%',
+          style: TextStyle(fontSize: 22,),
+        ),
+        SizedBox(
+          height: 10,
+        ),
+        Divider(
+          height: 2,
+          color: Colors.teal[100],
+        ),
+      ],
+    );
+  }
+
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Colors.teal[50],
@@ -65,7 +85,7 @@ class Page2 extends StatelessWidget {
                               SizedBox(
                                 height: 40,
                               ),
-                              if (MyHomePageState.rsponse1[1] == '1')
+                              if (MyHomePageState.rsponse1[0] == '1')
                                 Column(
                                   children: [
                                     Text(
@@ -84,48 +104,8 @@ class Page2 extends StatelessWidget {
                                     SizedBox(
                                       height: 20,
                                     ),
-                                    Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      children: [
-                                        Text(
-                                          'Probability that the customer will churn is: ',
-                                          style: TextStyle(
-                                            fontSize: 22,
-                                          ),
-                                        ),
-                                        Text(
-                                          double.parse(MyHomePageState
-                                                      .rsponse1[1])
-                                                  .toStringAsFixed(2) +
-                                              '%',
-                                          style: TextStyle(
-                                              fontSize: 22,
-                                              fontWeight: FontWeight.bold),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      children: [
-                                        Text(
-                                          'Probability that the customer will not churn is: ',
-                                          style: TextStyle(
-                                            fontSize: 22,
-                                          ),
-                                        ),
-                                        Text(
-                                          double.parse(MyHomePageState
-                                                      .rsponse1[2])
-                                                  .toStringAsFixed(2) +
-                                              '%',
-                                          style: TextStyle(
-                                              fontSize: 22,
-                                              fontWeight: FontWeight.bold),
-                                        ),
-                                      ],
-                                    ),
+                                    
+                                    accurecyResult(),
                                   ],
                                 ),
                               if (MyHomePageState.rsponse1[0] == '0')
@@ -147,48 +127,8 @@ class Page2 extends StatelessWidget {
                                     SizedBox(
                                       height: 20,
                                     ),
-                                    Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      children: [
-                                        Text(
-                                          'Probability that the customer will not churn is: ',
-                                          style: TextStyle(
-                                            fontSize: 22,
-                                          ),
-                                        ),
-                                        Text(
-                                          double.parse(MyHomePageState
-                                                      .rsponse1[2])
-                                                  .toStringAsFixed(2) +
-                                              '%',
-                                          style: TextStyle(
-                                              fontSize: 22,
-                                              fontWeight: FontWeight.bold),
-                                        ),
-                                      ],
-                                    ),
-                                    Row(
-                                      mainAxisAlignment:
-                                          MainAxisAlignment.center,
-                                      children: [
-                                        Text(
-                                          'Probability that the customer will churn is: ',
-                                          style: TextStyle(
-                                            fontSize: 22,
-                                          ),
-                                        ),
-                                        Text(
-                                          double.parse(MyHomePageState
-                                                      .rsponse1[1])
-                                                  .toStringAsFixed(2) +
-                                              '%',
-                                          style: TextStyle(
-                                              fontSize: 22,
-                                              fontWeight: FontWeight.bold),
-                                        ),
-                                      ],
-                                    ),
+                                   
+                                    accurecyResult(),
                                   ],
                                 ),
                             ],
