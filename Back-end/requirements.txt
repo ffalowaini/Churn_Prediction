@@ -1,0 +1,8 @@
+flask
+django
+gunicorn
+django-heroku
+numpy
+sklearn
+requests
+flask_cors
