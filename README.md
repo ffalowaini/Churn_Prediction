@@ -6,7 +6,7 @@ Customer success does not only stop at acquiring new customers, it is extended t
 
 ## Deployed Project
   https://ml-sic.000webhostapp.com
-
+![plot](UI.png)
 
 
 ## Goals
@@ -18,10 +18,10 @@ Minimize the Customer Churn Rate using ML techniques that can help the companies
 
 The code is mainy divided to two part, Front-end and Back-end.
 
-1- Front-end 
+### 1- Front-end 
   The project front-end developed using Flutter Framework that bulit using Dart Programing Language. The power of the framework is the flexibility, where it can bulied website, IOS, and Android app using the same source code. 
 
-2- Back-end 
+### 2- Back-end 
   The project back-end developed using Flask Framework that bulit using Python Programing Languages. the power of the framework that it is easy to get started with as a beginner because there is little boilerplate code for getting a simple app up and running. Also, it easy to integrate it with other framework.
 
 
@@ -35,12 +35,12 @@ The code is mainy divided to two part, Front-end and Back-end.
   https://flutter.dev/docs/get-started/install
 
 2- 
-  After installing Flutter you can simplely clone the project using following command
-  git clone https://github.com/ffalowaini/Churn_Prediction.git 
+  After installing Flutter you can simplely clone the project using following command.
+  > git clone https://github.com/ffalowaini/Churn_Prediction.git 
 
 3- 
-  Open the project in your favorite IDE tool and run the main.dart file our using following command
-  flutter run
+  Open the project in your favorite IDE tool and run the main.dart file our using following command.
+  > flutter run
 
 ### Back-end
 1- 
@@ -49,17 +49,43 @@ The code is mainy divided to two part, Front-end and Back-end.
   https://www.python.org/
 
 2- 
-  After installing Pyhton you need to need to install Flask package using following command
-  pip install flask
+  After installing Pyhton you need to need to install Flask package using following command.
+  > pip install flask
 
 3- 
-  After installing Pyhton you can simplely clone the project using following command
-  git clone https://github.com/ffalowaini/Churn_Prediction.git 
+  After installing Pyhton you can simplely clone the project using following command.
+  > git clone https://github.com/ffalowaini/Churn_Prediction.git 
 
-3- 
-  Open the project in your favorite IDE tool and run the app.py file our using following command
-  flask run
+4- 
+  Open the project in your favorite IDE tool and run the app.py file our using following command.
+  > flask run
 
+
+##### to use the back-end for other project
+
+send the data as array in json formate contain the following in the same order (where true is 1, false is 0)
+  - tenure month
+  - monthly charge
+  - is_male
+  - is_senior_citizen
+  - is_partner
+  - has_dependent
+  - has_Phone_Service
+  - has_Multiple_Lines
+  - has_Internet_Service_Fiber? optic
+  - has_Online_Security
+  - has_Online_Backup
+  - has_Device_Protection
+  - has_Tech_Support
+  - has_Streaming_TV
+  - has_Streaming_Movies
+  - contract_year
+  - contract_two_year
+  - payment_credit
+  - payment_Electronic
+  - payment_Mail
+
+  the response formate as follow in json format ['will churn or not'], where 0 mean customer is likely to Churn, and 1 mean customer is not likely to Churn.
 
 ## How to deploy the Project to server
 
