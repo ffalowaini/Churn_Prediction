@@ -4,7 +4,7 @@
 
 Customer success does not only stop at acquiring new customers, it is extended to a longer lifecycle as this obviously depend on direct and indirect reasons. Churn customer metrics can significantly indicate the customer success Lifecycle. Figure 1 illustrate the story behind customer engagement along the time. It can be seen that after the acquisition stage, the customer is more likely to be get more engaged to the company services/product. After the customer gets satisfied with the company, the customer tends to be more loyal to the company as the time goes. However, the risk of losing the customer increases as the customer keeps utilizing the service/product. This would indicate to make more customized services/product to the customer to keep him satisfied, otherwise the customer is more likely to be churn. 
 
-## Deployed Project
+## Deployed Demo
   https://ml-sic.000webhostapp.com
 ![plot](UI.png)
 
